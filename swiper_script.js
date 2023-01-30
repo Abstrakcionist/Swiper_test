@@ -1,6 +1,8 @@
-// Swiper inicialisation
 const swiper = new Swiper('.swiper', {
-    autoplay: {
-      delay: 5000,
+    speed: 400,
+    spaceBetween: 100,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
